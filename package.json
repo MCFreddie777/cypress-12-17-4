@@ -23,7 +23,7 @@
     "@babel/preset-env": "7.22.10",
     "@cypress/webpack-preprocessor": "5.12.0",
     "babel-loader": "8.2.5",
-    "cypress": "12.17.4",
+    "cypress": "12.17.3",
     "ts-loader": "8.4.0",
     "typescript": "4.7.3",
     "webpack": "4.46.0"
