@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"baseUrl": "../node_modules",
+		"target": "es2015",
+		"moduleResolution": "node",
+		"strict": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": false,
+		"strictNullChecks": false,
+		"forceConsistentCasingInFileNames": true,
+		"experimentalDecorators": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"lib": [
+			"es5",
+			"es6",
+			"dom"
+		],
+		"types": [
+			"cypress",
+			"node"
+		],
+		"typeRoots": [
+			"../node_modules/@types"
+		]
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"exclude": [
+		"tslint-rules/**/*.*"
+	]
+}
